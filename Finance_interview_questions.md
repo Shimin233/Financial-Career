@@ -9,7 +9,7 @@ that can be used to calculate the impact of a future event or decision\
 - Weighted average cost of capital(__WACC__): a calculation of a firm's cost of capital in which each 
 category of capital is proportinately weighted. 
 
-WACC = (E * Re /V) + (D * Rd * (1-Tc)/V ), \
+WACC = (E * Re /V) + (D * Rd * (1-Tc)/V)
 where
 E=Market value of the firm's equity, \
 D=Market value of the firm's debt, \
@@ -65,3 +65,21 @@ The answer is simple. NPV assumes that future cash inflows happen at the end of 
 ![](Warmup_FinanceQ2.png)
 
 ![](Warmup_FinanceQ3.png)
+
+
+### Efforts to insert LaTeX into markdown
+(the only working way:) <img src="https://render.githubusercontent.com/render/math?math=WACC = (E * Re /V) + (D * Rd * (1-Tc)/V)">
+
+can use Jupyter notebook, [ref1](https://gist.github.com/VictorNS69/1c952045825eac1b5e4d9fc84ad9d384), [ref2](https://stackoverflow.com/questions/35498525/latex-rendering-in-readme-md-on-github)
+
+```markdown
+![formula](https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1)
+```
+
+```math
+SE = \frac{\sigma}{\sqrt{n}}
+```
+
+\\[ WACC = (E * Re /V) + (D * Rd * (1-Tc)/V) \\], \
+
+
