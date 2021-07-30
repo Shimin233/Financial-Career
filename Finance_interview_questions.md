@@ -20,11 +20,12 @@ weighted value of debt-linked capital=(D/V) * Rd * (1-Tc). \
 
 WACC inc <-> beta (volatility of a stock, i.e. both risk and return) and rate of retuen on equity inc
 <-> valuation dec and risk inc (remember WACC is a 'cost')\
-(Source: [Invstopedia](https://www.investopedia.com/terms/w/wacc.asp))
+(Source: [invstopedia](https://www.investopedia.com/terms/w/wacc.asp))
 
-- Income statement (profit and loss statement / statement of revenue and expense): one of the three important financial statements, used for reporting a company's financial performace   over a 
+- 'Build a cash flow (statement)' from an income statement:
+- __Income statement__ (profit and loss statement / statement of revenue and expense): one of the three important financial statements, used for reporting a company's financial performace   over a 
 specific accounting period. \
-  The other two key statements are the balance sheet, and the statement of cash flows. 
+  The other two key statements are the __balance sheet__, and the __statement of cash flows__. 
   - four key items:
     - revenue
       - operating revenue: the revenue realised via primary activities (e.g. sale of product for a wholesaler)
@@ -35,5 +36,10 @@ specific accounting period. \
       - primary activity expenses: incl. cost of goods sold (COGS), selling, and general administrative expenses (SG&A), depreciation or amortisation (the systematic repayment of a debt), research and development (R&D) expenses, emplyee wages
       - secondary activity expenses: all expenses linked to non-core business activities, e.g. interests paid on loan money
     - losses (as expenses): all expenses that go to a loss-making sale of long-term assets, one-time or any other un-usual costs, or expenses towards lawsuits 
-      - e.g.++++++++++++++
-\([Source](https://www.investopedia.com/terms/i/incomestatement.asp))
+      - e.g.++++++++++++++\
+(Source: [investopedia-Income statement](https://www.investopedia.com/terms/i/incomestatement.asp))
+-  __Statement of cash flows__: provides aggregate data regarding all cash inflows that a company reveices from its ongoing operations and 
+-  external investment sources. \
+(Source: [Cash flow statement](https://www.investopedia.com/investing/what-is-a-cash-flow-statement/); 
+[Understanding a cash flow statement](https://www.investopedia.com/investing/what-is-a-cash-flow-statement/))
+
