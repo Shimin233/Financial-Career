@@ -1,4 +1,5 @@
 Warmup: Finance interview questions and Answers
+![](Warmup_FinanceQ1.png)
 
 - __Financial modeling__: the process of creating a summary of a company's expenses and earnings, in the form of a spreadsheet   
 that can be used to calculate the impact of a future event or decision\
@@ -43,3 +44,6 @@ specific accounting period. \
 (Source: [Cash flow statement](https://www.investopedia.com/investing/what-is-a-cash-flow-statement/); 
 [Understanding a cash flow statement](https://www.investopedia.com/investing/what-is-a-cash-flow-statement/))
 
+![](Warmup_FinanceQ2.png)
+
+![](Warmup_FinanceQ3.png)
