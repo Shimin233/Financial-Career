@@ -67,14 +67,59 @@ specific accounting period. \
 sections incl. Cash Flow Classifications, How to Prepare a Statement of Cash Flows, Direct Method vs Indirect Method of Presentation, from [CFI](https://corporatefinanceinstitute.com/resources/knowledge/accounting/statement-of-cash-flows/))
 
 
-- Net present value(__NPV__)(https://www.investopedia.com/terms/n/npv.asp)
+- Net present value(__NPV__): difference between the present value of cash inflows and the present value of cash outflows, over a period of time. It is used to calculate the current total value of a future stream of payments
+  - NPV > 0 -> discounted present value of all future cash flows will be positive, thus attractive
+  - calculation of NPV: estimate the future net cash flows (inflow-outflow) for each period t, R_t and determine the correct discount rate of return i (that can be earned in alternative investments, if the money not used in curremt way), 
+  NPV = \sum_{t=1}^{n} \frac{R_t}{(1+i)^t}
+  NPV = TVECF - TVIC, \
+  where TVECF = today's value of the expected cash flows = \sum_{t=1}^{n} \frac{Inflow_t}{(1+i)^t}, \
+  TVIC = today's value of invested cash = \sum_{t=1}^{n} \frac{Outflow_t}{(1+i)^t}\
+  - Also a function in Excel
+(Source: [Net Present Value (NPV)](https://www.investopedia.com/terms/n/npv.asp)
+- XNPV, is the NPV for a range of cash payments that need not be essentially periodic, but we know the exact dates of payments; is also a function in Excel (https://www.investopedia.com/articles/investing/102715/calculating-npv-and-xnpv-formulas-using-excel.asp)
 
-- XNPV is a function in Excel (https://www.investopedia.com/articles/investing/102715/calculating-npv-and-xnpv-formulas-using-excel.asp)
+- difference? 
+  NPV = \sum_{t=1}^{n}\frac{C_{it}}{(1+r)^t} - X_0
+  XNPV = \sum_{t=1}^{n} \frac{P_t}{(1+r)^((d_t-d_0)/365)} 
+where X_0 = net initial expenditures, \
+r=discount rate, \
+C_{it} = inflow at period t, \
+d_t = the t-th payment date, \
+d_0 = the 0-th payment date, (assuming the whole period is 365-day\
+P_t = the payment at period t. \
 
-- difference? (https://www.wallstreetmojo.com/npv-vs-xnpv/)
-The answer is simple. NPV assumes that future cash inflows happen at the end of the year (from today). ... However, when we calculated the present value using XNPV, the cash inflow dates were the actual year-end dates. When we use XNPV, we are discounting the first cash flow for a period that is less than one year.
+(Source: WallStreet Mojo(https://www.wallstreetmojo.com/npv-vs-xnpv/); 
+and formula of XNPV from [CFI-What is the XNPV function formula?](https://corporatefinanceinstitute.com/resources/excel/study/xnpv-function-in-excel/))
+
+
+- Definition of short/long-term financing ([source](https://www.fundera.com/business-loans/guides/short-term-finance)): Financing that extends for longer than a 18-month period is typically referred to as LONG-TERM FINANCING, while financing that extends over a period from 30 days to 18 months (same as short term debt? which is usually within 1 year on [Investopedia](https://www.investopedia.com/terms/s/shorttermdebt.asp)) is typically referred to as SHORT-TERM FINANCING. 
+- (different from given answer!++++++) Short-term financing: its main sources are
+  1. __trade credit__ (1st important source, the largest single category of short-term credit): credit terms are usually with a cash discount for prompt payment of debt (due to purchase of a company's supplies and materials, recorded as an _account payable_). Cost of not taking the cash discount = price of credit. e.g.disconut = 2% off, price= 98% * total debt +++++++confirm this eg++++++++
+  2. __commercial bank loans__ (2nd important): appears on the balance sheet as _notes payable_. A bank provides (a) a single loan to a firm, and the firm signs a promissory note 期票，欠票; repayment is mad in a lump sum at maturity (date), or in intallments throughout the life of the loan; (b) a line of credit, which is a formal/informal understanding between the bank and the borrower, as to the max loan balance that the bank will allow at any one time. 
+  3. __commercial paper__, a specific type of promissory note: a basic limitation of it is that its resources are limited to the excess liquidity
+  4. __secured loans__ in contrary, most short-term business loans are unsecured (an established company’s credit rating qualifies it for a loan)
+(Source: [Britanica](https://www.britannica.com/topic/business-finance/Short-term-financing))
+
 
 ![](Warmup_FinanceQ2.png)
+- Macauley v.s. Modified Duration, both are used to calculate the duration of bonds, while they are different: 
+  - Macauley duration: calculates the _weighted average time_ before a bondholder would receive the bond's cash flows
+   Macauley duration = \frac{\sum_{t=1}^{n}\frac{t * C}{(1+y)^t} + \frac{n * M}{(1+y)^n}}{current bond price},\
+   where C = periodic coupon payment, \
+   y = periodic yield, \
+   M = the bond's maturity value, \
+   n = duration of bonds in periods
+  - Modified duration: measures the price sensitivity of a bond when there is a change in the yield to maturity
+   Modified duration = \frac{Macauley duration}{1 + YTM/n}, \
+   where YTM = yield to maturity, n = #coupon periods per year
+ +++++++need more materials /eg to understand this+++++++++++++  
+(Source: [Macaulay Duration vs. Modified Duration: What's the Difference?](https://www.investopedia.com/ask/answers/051415/what-difference-between-macaulay-duration-and-modified-duration.asp)
+
+- Deferred Tax Liability
+
+- Negative Working Capital
+
+- Securitisation
 
 ![](Warmup_FinanceQ3.png)
 
