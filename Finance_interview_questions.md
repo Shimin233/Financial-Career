@@ -41,6 +41,7 @@ specific accounting period. \
 (Source: [investopedia-Income statement](https://www.investopedia.com/terms/i/incomestatement.asp))
 -  __Statement of cash flows__ (cash flow statement, CFS): provides aggregate data regarding all _cash inflows_ that a company reveices from its ongoing operations and external investment sources, and all _cash outflows_ that pay for business activities and investments during a given period. \
   - a bridge between income statement and balance sheet, via showing how money moves in and out
+  - measures how well a company manages its cash position -> how well it generates cash to pay its debt obligations and fund its operating expenses
   - most intuitive of all the financial statements: follows the cash made by the business in 3 ways/sections: 
     - operations, investment, and financing
     - sum of these three = _net cash flow_
@@ -50,6 +51,14 @@ specific accounting period. \
     - look at this section for changes in _capital expenditures (capex)_ (capex inc -> cash flow dec, maybe -> invest for future and firm growing)
   - section 3, cash flow from financing (CFF): overview of cash used from debt and equity, measures cash flow between a company and its owners/creditors
     -  CFF>0 -> more money coming into than out; CFO<0, company is paying off debt/ making devidend payments and/or stock buybacks (a company pays shareholders the market value per share, to re-absorb ownerships of it from investors) 
+  - (sometimes) section 4, disclosure of non-cash activities, may be included under the generally accepted accounting principles ([GAAP](https://www.investopedia.com/terms/g/gaap.asp), a combination of authoritative standards set by policy boards and the commonly accepted ways of recording and reporting accounting information)
+  - Two methods of calculating CFO are the direct and indirect methods. Because not all transactions involve actual cash items, many items have to be re-evaluated when calculating CFO from income statement and balance sheet
+    - direct method: adds up all the types of cash payments and receipts, e.g. cash paid to suppliers, cash receipts from customers, cash paid out in salaries, which are calculated by beginning and ending balances of business accounts
+    - indirect method (__linking income statement to CFS__): CFO is calculated by taking the <u>net income</u> (rather than revenue) off of the income statement, then adjust _earnings before interest and taxes (EBIT)_ for items that affect net income (though no actual cash has yet been received or paid), add back non-operating activities that don't affect CFO (e.g. depreciation, not a cash expense, not affecting net income, but only an amount dedeucted from the previous total asset value, so added back net earnings)
+      - Tip: the only time when the income from an asset is accounted for in CFS, is when the asset is sold
+    - Accounts Receivable (AR): on the balance sheet, from one accounting period to the next. AR dec -> cash entering into company from customers paying off their credit accounts -> #AR dec = #net earnings inc\
+    - Inventory Value: #inventory(purchased in cash) inc -> company spends more to buy raw materials => #net earnings dec; #inventory(purchased on credit) inc => #accounts payable inc (on balance sheet) & #net earnings from one year to the other inc +++++++++++++++++eg
+    - Taxes payable, salaries payable, prepaid insurance, etc.: similar to Inventory value: #sth. paid off => #valued owed from one year to the next dec in net income\
 (Source: [Cash flow statement](https://www.investopedia.com/investing/what-is-a-cash-flow-statement/); 
 [Understanding a cash flow statement](https://www.investopedia.com/investing/what-is-a-cash-flow-statement/))
 
