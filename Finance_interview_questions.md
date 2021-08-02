@@ -1,4 +1,4 @@
-Warmup: Finance interview questions and Answers
+## Warmup: Finance interview questions and Answers
 ![](Warmup_FinanceQ1.png)
 
 - __Financial modeling__: the process of creating a summary of a company's expenses and earnings, in the form of a spreadsheet   
@@ -66,6 +66,19 @@ The answer is simple. NPV assumes that future cash inflows happen at the end of 
 
 ![](Warmup_FinanceQ3.png)
 
+## What to know for Credit risk job
+- See folder 风控讲座信用风险及其他
+Government Regulation: e.g. Canada's government regulation: [OSFI regulation](https://www.osfi-bsif.gc.ca/Eng/fi-if/rg-ro/gdn-ort/gl-ld/Pages/CAR19_chpt3.aspx)\
+IFRS 9: an International Financial Reporting Standard published by the International Accounting Standards Board. See a [brief](https://www.risk.net/definition/ifrs-9) or more details on [wiki](https://en.wikipedia.org/wiki/IFRS_9)\
+Basel III: [definition](https://www.investopedia.com/terms/b/basell-iii.asp), 
+[introduction to basel on YouTube](https://www.youtube.com/watch?v=1nO1DN7alpQ&list=PLC9XQ3wczKNJOmvg8vLAQp6XIREyUHlex)
+
+ECL evaluation\
+Excel\
+Powerpoint\
+SQL\
+VBA\
+R, Python, Matlab, [SAS](https://www.sas.com/en_gb/curiosity.html?utm_source=google&utm_medium=cpc&utm_campaign=brand-global&utm_content=GMS-158646-gbc-cf&dclid=&gclid=CjwKCAjwr56IBhAvEiwA1fuqGtLwwiUw4TsQomJUX2dtbep-SeQGybH0xrBfDF7cCGfr48tO8JDfQhoCOdsQAvD_BwE)
 
 ### Efforts to insert LaTeX into markdown
 (the only working way:) <img src="https://render.githubusercontent.com/render/math?math=WACC = (E * Re /V) + (D * Rd * (1-Tc)/V)">
