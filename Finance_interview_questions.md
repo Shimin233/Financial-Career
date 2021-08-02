@@ -52,19 +52,19 @@ specific accounting period. \
   - section 3, cash flow from financing (CFF): overview of cash used from debt and equity, measures cash flow between a company and its owners/creditors
     -  CFF>0 -> more money coming into than out; CFO<0, company is paying off debt/ making devidend payments and/or stock buybacks (a company pays shareholders the market value per share, to re-absorb ownerships of it from investors) 
   - (sometimes) section 4, disclosure of non-cash activities, may be included under the generally accepted accounting principles ([GAAP](https://www.investopedia.com/terms/g/gaap.asp), a combination of authoritative standards set by policy boards and the commonly accepted ways of recording and reporting accounting information)
-  - Two methods of calculating CFO are the direct and indirect methods. Because not all transactions involve actual cash items, many items have to be re-evaluated when calculating CFO from income statement and balance sheet
-    - direct method: adds up all the types of cash payments and receipts, e.g. cash paid to suppliers, cash paid for capital expenditures (out), cash receipts from customers (in), cash paid out in salaries, which are calculated by beginning and ending balances of business accounts
+  - Two methods of calculating/presenting CFS are the direct and indirect methods, with their difference only in CFO. Because not all transactions involve actual cash items, many items have to be re-evaluated when calculating CFO from income statement and balance sheet
+    - direct method (preferred by International Accounting Standards Board, [IASB](https://www.iasplus.com/en/resources/ifrsf/iasb-ifrs-ic/iasb)): adds up all the types of cash payments and receipts, e.g. cash paid to suppliers, cash paid for capital expenditures (out), cash receipts from customers (in), cash paid out in salaries, which are calculated by beginning and ending balances of business accounts
     - indirect method (more common than direct method; __linking income statement to CFS__): CFO is calculated by taking the <u>net income</u> (rather than revenue) off of the income statement, then adjust _earnings before interest and taxes (EBIT)_ for items that affect net income (though no actual cash has yet been received or paid), add back non-operating activities that don't affect CFO (e.g. depreciation, not a cash expense, not affecting net income, but only an amount dedeucted from the previous total asset value, so added back net earnings)
       - summary for indirect method from [CFI-Cash Flow Classifications](https://corporatefinanceinstitute.com/resources/knowledge/accounting/statement-of-cash-flows/): Profit P -> amortisation A, Impairment expense I, Change in working capital ΔWC，Change in provisions ΔP, Interest Tax (I), Tax (T) -> CFO. Note that the items in the CFS are not all actual cash flows, but __'reasons why cash flow is different from profit'__ ++eg++++++++++. Profit used here can be net income, proft before/after tax, etc.
       - Tip: the only time when the income from an asset is accounted for in CFS, is when the asset is sold
     - Others that may be used in CFO: 
-    - Accounts Receivable (AR): on the balance sheet, from one accounting period to the next. AR dec -> cash entering into company from customers paying off their credit accounts -> #AR dec = #net earnings inc\
-    - Inventory Value: #inventory(purchased in cash) inc -> company spends more to buy raw materials => #net earnings dec; #inventory(purchased on credit) inc => #accounts payable inc (on balance sheet) & #net earnings from one year to the other inc +++++++++++++++++eg
+    - Accounts Receivable (AR): on the balance sheet, from one accounting period to the next. AR dec -> cash entering into company from customers paying off their credit accounts -> #AR dec = #inc to net earnings\
+    - Inventory Value: #inventory(purchased in cash) inc -> company spends more to buy raw materials => #net earnings dec; #inventory(purchased on credit) inc -> #accounts payable inc (on balance sheet) & #net earnings from one year to the other inc +++++++++++++++++eg
     - Taxes payable, salaries payable, prepaid insurance, etc.: similar to Inventory value: #sth. paid off => #valued owed from one year to the next dec in net income\
 (Source: [Cash flow statement](https://www.investopedia.com/investing/what-is-a-cash-flow-statement/); 
-[Understanding a cash flow statement](https://www.investopedia.com/investing/what-is-a-cash-flow-statement/))
+[Understanding a cash flow statement](https://www.investopedia.com/investing/what-is-a-cash-flow-statement/); 
+sections incl. Cash Flow Classifications, How to Prepare a Statement of Cash Flows, Direct Method vs Indirect Method of Presentation, from [CFI](https://corporatefinanceinstitute.com/resources/knowledge/accounting/statement-of-cash-flows/))
 
-see section of the source web: How to Prepare a Statement of Cash Flows (Source: [CFI](https://corporatefinanceinstitute.com/resources/knowledge/accounting/statement-of-cash-flows/)
 
 - Net present value(__NPV__)(https://www.investopedia.com/terms/n/npv.asp)
 
