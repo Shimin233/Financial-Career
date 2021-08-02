@@ -9,17 +9,17 @@ that can be used to calculate the impact of a future event or decision\
 - Weighted average cost of capital(__WACC__): a calculation of a firm's cost of capital in which each 
 category of capital is proportinately weighted. 
 
-WACC = (E * Re /V) + (D * Rd * (1-Tc)/V)
-where
+WACC = (E/V) * Re  + (D/V) * Rd * (1-Tc)\
+where 
 E=Market value of the firm's equity, \
 D=Market value of the firm's debt, \
 V=E+D, \
-Re=cost of equity, \Rd=cost of debt, \
+Re=cost of equity, Rd=cost of debt, \
 Tc=corporate tax rate. \
 Weighted value of equity-linked capital=(E/V) * Re, \
 weighted value of debt-linked capital=(D/V) * Rd * (1-Tc). \
 
-WACC inc <-> beta (volatility of a stock, i.e. both risk and return) and rate of retuen on equity inc
+WACC inc <-> beta (volatility of a stock, i.e. both risk and return) and rate of return on equity inc
 <-> valuation dec and risk inc (remember WACC is a 'cost')\
 (Source: [invstopedia](https://www.investopedia.com/terms/w/wacc.asp))
 
@@ -39,7 +39,7 @@ specific accounting period. \
     - losses (as expenses): all expenses that go to a loss-making sale of long-term assets, one-time or any other un-usual costs, or expenses towards lawsuits 
       - e.g.++++++++++++++\
 (Source: [investopedia-Income statement](https://www.investopedia.com/terms/i/incomestatement.asp))
--  __Statement of cash flows__: provides aggregate data regarding all _cash inflows_ that a company reveices from its ongoing operations and external investment sources, and all _cash outflows_ that pay for business activities and investments during a given period. \
+-  __Statement of cash flows__ (cash flow statement, CFS): provides aggregate data regarding all _cash inflows_ that a company reveices from its ongoing operations and external investment sources, and all _cash outflows_ that pay for business activities and investments during a given period. \
   - a bridge between income statement and balance sheet, via showing how money moves in and out
   - most intuitive of all the financial statements: follows the cash made by the business in 3 ways/sections: 
     - operations, investment, and financing
