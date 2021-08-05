@@ -137,6 +137,10 @@ SQL\
 VBA\
 R, Python, Matlab, [SAS](https://www.sas.com/en_gb/curiosity.html?utm_source=google&utm_medium=cpc&utm_campaign=brand-global&utm_content=GMS-158646-gbc-cf&dclid=&gclid=CjwKCAjwr56IBhAvEiwA1fuqGtLwwiUw4TsQomJUX2dtbep-SeQGybH0xrBfDF7cCGfr48tO8JDfQhoCOdsQAvD_BwE)
 
+
+[Enterprise Risk Management (ERM) ](https://grc2020.com/2010/06/09/6enterprise-risk-management-policy-structure/)
+
+
 ### Efforts to insert LaTeX into markdown
 (the only working way:) <img src="https://render.githubusercontent.com/render/math?math=WACC = (E * Re /V) + (D * Rd * (1-Tc)/V)">
 
