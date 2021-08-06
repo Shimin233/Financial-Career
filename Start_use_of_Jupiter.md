@@ -18,4 +18,4 @@ Run Jupyter notebook by typing
 ```
 jupyter notebook
 ```
-Then I am automatically directed to a webpage of Jupyter notebook. 
+Then I am automatically directed to a webpage of Jupyter notebook, with address being `http://localhost:8888/tree`. 
