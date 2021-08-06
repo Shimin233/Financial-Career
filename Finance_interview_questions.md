@@ -141,9 +141,23 @@ and formula of XNPV from [CFI-What is the XNPV function formula?](https://corpor
   - additional funds parked in inventories or (accounts) receivables are not financed by short-term liabiities but long-term capital -> should be used for longer-term investments for effectiveness-> this is the key to maintain an optimal level of NWC, often 20%-100% of the total current liabilities. \
 (Source: [Working capital](https://www.investopedia.com/terms/w/workingcapital.asp); [Calculate working capital](https://www.investopedia.com/ask/answers/071114/how-do-you-calculate-working-capital.asp);  [When Working capital can be negative](https://www.investopedia.com/ask/answers/100915/can-working-capital-be-negative.asp))
 
-- Securitisation
+- Securitisation: procedure where 
+
+(Source: [securitisation](https://www.investopedia.com/terms/s/securitization.asp))
 
 ![](Warmup_FinanceQ3.png)
+
+## Trader
+Contract for differences差价合约 (__CFD__) ([Source](https://www.investopedia.com/terms/c/contractfordifferences.asp)): a financial contract that pays the differences in the settlement price between the open and closing trades. CFDs are used by investors to make price bets (as to whether the price of the underlying asset or security will rise or fall).
+- Traders who expect an upward movement in price buy the CFD (buyer); those expect downward sell an opening position (seller)
+  - if price rises, then buyers will offer their holding for sale -> sale price - purchase price = gain or loss, which is cash-settled through their accounts; 
+  - if price declines, the sellers, who placed an opening sell position before, will close the position by purchasing an offsetting trade -> sale price(before) - purchase price (later)= gain or loss, which is cash-settled through their account
+- although are cash-settled but usually allow ample margin trading, so investors need only put up a small amount of the contract's notional payoff
+- see more e.g. [Source](https://www.zhihu.com/question/22719802)
+
+Spread Betting点差交易 ([Source1](https://www.investopedia.com/articles/active-trading/082113/what-spread-betting.asp); [Source2](https://www.investopedia.com/terms/s/spreadbetting.asp); [Zhihu](https://zhuanlan.zhihu.com/p/144830019))+++++++++++
+
+Share dealing++++++++++++++
 
 ## What to know for Credit risk job
 - See folder 风控讲座信用风险及其他
