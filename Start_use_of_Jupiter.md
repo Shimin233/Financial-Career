@@ -26,3 +26,9 @@ To access the notebook, open this file in a browser:
     Or copy and paste one of these URLs:
         http://localhost:8888/?token=9f73284a5798d3ce3f59b0eaeae0c0183da0a1038166e524
      or http://127.0.0.1:8888/?token=9f73284a5798d3ce3f59b0eaeae0c0183da0a1038166e524
+
+If finding that the addresses above do not work ('Safari can't connect to the server' etc.), then open Terminal and type
+```
+jupyter notebook
+```
+Then auto-redirection to Jupyter will operate again.
