@@ -141,13 +141,22 @@ and formula of XNPV from [CFI-What is the XNPV function formula?](https://corpor
   - additional funds parked in inventories or (accounts) receivables are not financed by short-term liabiities but long-term capital -> should be used for longer-term investments for effectiveness-> this is the key to maintain an optimal level of NWC, often 20%-100% of the total current liabilities. \
 (Source: [Working capital](https://www.investopedia.com/terms/w/workingcapital.asp); [Calculate working capital](https://www.investopedia.com/ask/answers/071114/how-do-you-calculate-working-capital.asp);  [When Working capital can be negative](https://www.investopedia.com/ask/answers/100915/can-working-capital-be-negative.asp))
 
-- Securitisation: procedure where 
-
+- Securitisation: procedure where an inssuer designs a marketable financial instrument, by merging or pooling various financial assets into one group. Afterwards, the issuer sells this repackaged assets to investors. 
+  - its result: promotes liquidity in the marketplace via: 1 offering opportunities for investors, 2 freeing up capital for originators.
+  - what can be securitised (i.e. turned into a tradable, fungible item of monetary value, which is what all securities are): any financial asset in theory, but most often for loans and other assets that generate receivables(aka acconnts receivable, debts owed to a company by its customers for goods or services that have been delivered or used, but not yet paid for. [Source](https://www.investopedia.com/terms/r/receivables.asp)) (e.g. consumer or commercial debt)
+  - It can involve pooling of contractual debts, e.g. auto loans, credit card debt obligations.
 (Source: [securitisation](https://www.investopedia.com/terms/s/securitization.asp))
 
 ![](Warmup_FinanceQ3.png)
 
-## Trader
+## Quant trading (Jane street)
+Excel (data analysis-style; visualisation), 
+Python (pandas, numpy), 
+Linux (famaliar with os), 
+Tensorflow
+
+
+## Trader (IG Group)
 Contract for differences差价合约 (__CFD__) ([Source](https://www.investopedia.com/terms/c/contractfordifferences.asp)): a financial contract that pays the differences in the settlement price between the open and closing trades. CFDs are used by investors to make price bets (as to whether the price of the underlying asset or security will rise or fall).
 - Traders who expect an upward movement in price buy the CFD (buyer); those expect downward sell an opening position (seller)
   - if price rises, then buyers will offer their holding for sale -> sale price - purchase price = gain or loss, which is cash-settled through their accounts; 
