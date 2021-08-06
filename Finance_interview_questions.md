@@ -104,7 +104,9 @@ and formula of XNPV from [CFI-What is the XNPV function formula?](https://corpor
 ![](Warmup_FinanceQ2.png)
 - Macauley v.s. Modified Duration, both are used to calculate the duration of bonds, while they are different: 
   - Macauley duration: calculates the _weighted average time_ before a bondholder would receive the bond's cash flows
-   Macauley duration = \frac{\sum_{t=1}^{n}\frac{t * C}{(1+y)^t} + \frac{n * M}{(1+y)^n}}{current bond price},\
+<img src="https://render.githubusercontent.com/render/math?math\text{Macauley duration} = \frac{ {\sum_{t=1}^{n} t * C * (1 + y)^{-t}} + n * M * (1 + y)^{-n}}{\text{current bond price}}">
+
+   Macauley duration = \[ \sum_{t=1}^{n} t * C * (1+y)^{-t} + n * M * (1+y)^{-n} \] / {current bond price},\
    where C = periodic coupon payment, \
    y = periodic yield, \
    M = the bond's maturity value, \
@@ -115,9 +117,29 @@ and formula of XNPV from [CFI-What is the XNPV function formula?](https://corpor
  +++++++need more materials /eg to understand this+++++++++++++  
 (Source: [Macaulay Duration vs. Modified Duration: What's the Difference?](https://www.investopedia.com/ask/answers/051415/what-difference-between-macaulay-duration-and-modified-duration.asp)
 
-- Deferred Tax Liability
+- Deferred Tax Liability: a tax that is assessed/due for the current period, but not yet been paid. 'Deferred' comes from the difference in timing between when the tax is accrued (thus should be recorded) and when it is paid.
+  - e.g. the difference in depreciation expense treatment by tax laws and accounting rules 
+  - e.g. installment sale: the revenue is recognised when a company sells its product on credit to be paid off in equal amounts in the future. Accounting rule allows company to recognise full income, while tax laws require them to recognise income when installment payments are made 
 
-- Negative Working Capital
+|              e.g.              |          Accounting rules      |                   Tax laws             | Difference between...and ..., thus a deferred tax liability|
+|--------------------------------|--------------------------------|----------------------------------------|----------------------------------------------|
+| Depreciation expense treatment |staightline-method(lower depreci) |   accelerated depreciation method  |  accounting income > taxable income|
+|         Installment sale       |recognise full income |income when installment payments are made |accounting earnings > taxable income|
+
+  +++++++come back to understand e.g.'s better++++maybe a table is needed++\
+(Source: [Deferred tax liabililty](https://www.investopedia.com/terms/d/deferredtaxliability.asp))
+
+- Negative Working Capital:
+- Working capital (net working capital, __NWC__): the difference between a company's _(operating) current assets_ (available within 12 months; e.g. cash, accounts receivable (customers' unpaid bills), inventories of raw materials and finished goods) and its _(operating) current liabilities_ (due within 12 months; e.g. acconuts payable). It measures a company's _liquidity, operational efficiency, and short-term financial health_.
+  - NWC = current assets - current liabilities
+  - Current ratio = current assets / current liabilities
+- NWC < 0 when current assets < current liabilities
+  - temporarily negative NWC indicates: a large outlay, or a substantial increase in its accounts payable due to a large purchase of products and services from its vendors
+  - long-period negative NWC indicates: struggling to make ends meet, and have to reply on borrowing or stock issuances (not 'insurance'!) to finance their NWC
+- NWC = 0 possibly when a company's current assets are fully funded by current liabilities; it potentially increases investment effectiveness, but also significant risks to a company's financial strength, due to lack of extra current assets that can easily and quickly converted to cash when liabilities become due/excessive il-liquid inventories among current assets.
+- NWC > 0 when having enough working capital, ensuring covering short-term liabilities, -> financial strength; but too much NWC in unsold and unused inventories, or un-collected accounts reveivable from past sales, is ineffective way of using resources
+  - additional funds parked in inventories or (accounts) receivables are not financed by short-term liabiities but long-term capital -> should be used for longer-term investments for effectiveness-> this is the key to maintain an optimal level of NWC, often 20%-100% of the total current liabilities. \
+(Source: [Working capital](https://www.investopedia.com/terms/w/workingcapital.asp); [Calculate working capital](https://www.investopedia.com/ask/answers/071114/how-do-you-calculate-working-capital.asp);  [When Working capital can be negative](https://www.investopedia.com/ask/answers/100915/can-working-capital-be-negative.asp))
 
 - Securitisation
 
