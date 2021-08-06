@@ -19,3 +19,10 @@ Run Jupyter notebook by typing
 jupyter notebook
 ```
 Then I am automatically directed to a webpage of Jupyter notebook, with address being `http://localhost:8888/tree`. 
+
+To re-access the notebook, note that there are routes in Terminal running result:
+To access the notebook, open this file in a browser:
+        file:///Users/shiminfu/Library/Jupyter/runtime/nbserver-26879-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=9f73284a5798d3ce3f59b0eaeae0c0183da0a1038166e524
+     or http://127.0.0.1:8888/?token=9f73284a5798d3ce3f59b0eaeae0c0183da0a1038166e524
