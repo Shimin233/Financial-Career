@@ -1,6 +1,6 @@
 ## Download
 Following instruction [here](https://github.com/jupyter/notebook/blob/master/README.md), summarise the useful steps: 
-(Can see Terminal file in shiminfu/Desktop/CareerPreparation)
+(Can see Terminal file in shiminfu/Desktop/CareerPreparation/Install_Use_Jupyter)
 Open Terminal, type (then press return/enter, same as below)
 ```
 python3 -m ensurepip --upgrade
