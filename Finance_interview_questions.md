@@ -149,6 +149,23 @@ and formula of XNPV from [CFI-What is the XNPV function formula?](https://corpor
 
 ![](Warmup_FinanceQ3.png)
 
+__Clean price__ (typically in U.S.): the price of a coupon bond not including any accrued interest(the amount of bond interest that has accumulated since the last time a bond interest payment was made, [Source](https://www.investopedia.com/terms/a/accruedinterest.asp)) between coupon payments.
+  - when to use it: quoted/published on financial new sites, to perform price tracking, considered as the _value of the bond_ in the current market
+(Source: [Clean Price](https://www.investopedia.com/terms/c/cleanprice.asp))
+
+__Dirty price__ (aka 'the price plus accreud'; typically in Europe): a bond pricing quote, referring to the cost of a bond that includes an accrued interest (based on coupon rate) along with a bond's coupon payment
+  - bond price quotes between coupon payments dates, reflect the accrued interest up to the day of the quote
+  - when to use it: quoted between brokers and investors
+e.g. Company A issues a bond, $1000 face value, $960 the published price (clean price), interest rate (coupon rate) 4% annually, payment are semi-annual
+-> investors will receive $20 = every six months
+-> dirty price = $960 + accrued interets at the quote time (assuming broker commission = 0)
+
+The relation between these two: 
+- Starting from the day after last payment day, interest accumulated at a steady rate on a bond for every day as the next payment day approaches -> dirty price = clean pice + accrued interest, rises daily
+- On the day of coupon payment, clean price = dirty price, since accrued interest = 0 until the next market day, the interest accrued so far has been just paid on that payment day
+- A bond buyer's actual price paid for the bond >= the quoted price on financial websites, because it accounts for accrued interest + the broker's commission(+++what is it?+++).
+(Source: [dirty price](https://www.investopedia.com/terms/d/dirtyprice.asp))
+
 ## Quant trading (Jane street)
 Excel (data analysis-style; visualisation), 
 Python (pandas, numpy), 
