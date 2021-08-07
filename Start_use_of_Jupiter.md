@@ -1,4 +1,4 @@
-## Download
+## Download and use locally
 Following instruction [here](https://github.com/jupyter/notebook/blob/master/README.md), summarise the useful steps: 
 (Can see Terminal file in shiminfu/Desktop/CareerPreparation/Install_Use_Jupyter)
 Open Terminal, type (then press return/enter, same as below)
@@ -32,3 +32,6 @@ If finding that the addresses above do not work ('Safari can't connect to the se
 jupyter notebook
 ```
 Then auto-redirection to Jupyter will operate again.
+
+## On Github
+See [guideline](https://docs.github.com/en/github/managing-files-in-a-repository/working-with-non-code-files/working-with-jupyter-notebook-files-on-github)
