@@ -157,7 +157,7 @@ __Dirty price__ (aka 'the price plus accreud'; typically in Europe): a bond pric
   - bond price quotes between coupon payments dates, reflect the accrued interest up to the day of the quote
   - when to use it: quoted between brokers and investors
 e.g. Company A issues a bond, $1000 face value, $960 the published price (clean price), interest rate (coupon rate) 4% annually, payment are semi-annual
--> investors will receive $20 = every six months
+-> investors will receive $20 ~ 19.8... = 1000 * (\sqrt(1.04) - 1) every six months
 -> dirty price = $960 + accrued interets at the quote time (assuming broker commission = 0)
 
 The relation between these two: 
@@ -165,6 +165,29 @@ The relation between these two:
 - On the day of coupon payment, clean price = dirty price, since accrued interest = 0 until the next market day, the interest accrued so far has been just paid on that payment day
 - A bond buyer's actual price paid for the bond >= the quoted price on financial websites, because it accounts for accrued interest + the broker's commission(+++what is it?+++).
 (Source: [dirty price](https://www.investopedia.com/terms/d/dirtyprice.asp))
+
+Interest rate risk: the potential for investment losses that result from a change in intrest rates (i)
+  - i inc -> value of a bond (or other fixed-income investment) dec, because this dec of market price of existing bonds offsets the more attractive rates of the new bond issues. 
+  - Note that a bond's __duration__ = Δbond's price given Δi, it measures interest rate risk. Longer-term bond is more price-sensitive to rate changes
+  - can be reduced by holding bonds of different durations (i.e. diversification of bond maturities, or by hedging保护以免受损失 fixed-income investments with _interest swaps_++++def+++, options, or other interest rate derivatives+++++e.g.+++++++++\
+(Source: [interest rate risk](https://www.investopedia.com/terms/i/interestraterisk.asp))
+
+Futures v.s. forward contract (note it is 'futures' not future!)
+- Futures contract: a legal agreement to buy or sell a particular commodity asset or security at a predetermined price at a specified time in the future. It is standardised contracts with fixed maturity dates and uniform underlyings. Thess are tradd on exchanges and settled ona daily basis. 
+- Forward contract: an arrangement made over-the-counter (__OTC__++++++) between two counterparties that negotiate and arrive on the exact terms of the contract (e.g. expiration date, #units of the underlying asset presented in the contract, what the underlying asset is). It only settles just once at the end of the contract. 
+- Same for the two: involve the agreement between two parties to buy and sell an asset at a specified price, by a certain date (expiration date)
+- Different for them: 
+    - forawrd: private, customisable that settles at the en of the agreement, is traded __OTC__\
+    - futures: has standardised terms, is traded on an exchange, where prices are settled on a daily basis until the end of the contract
+- +++e.g. of them+++++++\
+(Source: [Futures contract](https://www.investopedia.com/terms/f/futurescontract.asp); [forward v.s. futures contract](https://www.investopedia.com/ask/answers/06/forwardsandfutures.asp))
+
+Capital budgeting (aka investment appraisal投资评估): the process that a business undertakes to evaluate potential major investments or projects (contruction of a new plant, a big investment in an outside venture(i.e. a project with risk))
+  - it might involves: assess a prospective project's lifetime cash inflows and outflows -> to determine whether the potential returns meet a sufficient target benchmark. 
+  - Note: it seems that this capital budgeting differs from capital [budget资本预算](https://wiki.mbalib.com/wiki/资本预算)
+(Source: [capital budegting](https://www.investopedia.com/terms/c/capitalbudgeting.asp )
+
+
 
 ## Quant trading (Jane street)
 Excel (data analysis-style; visualisation), 
