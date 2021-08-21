@@ -48,7 +48,7 @@ specific accounting period. \
     - these 3 sections help determine the value of a company's stock, or of the whole company
   - section 1, cash flow from operations(CFO / operating cash flow, OCF): transactions from all operational business activities. e.g. buying&selling inventory and supplies, paying emplyees salaries; excl. investments, debts, dividends
   - section 2, cash flow from investment(CFI / ICF): the result of investment gains and losses, and cash spent on property, plant, equipment(PP&E)
-    - look at this section for changes in _capital expenditures (CapEx)_ (CapEx = cash spent on purchasing PP&E, inc -> cash flow dec, maybe -> invest for future and firm growing)
+    - look at this section for changes in _capital expenditures (CapEx)_ ([CapEx](https://www.investopedia.com/terms/c/capitalexpenditure.asp) may appear as acquisition expense, capital spending, or cash spent on purchasing PP&E; CapEx=Current Depreciation + ΔPP&E; CapEx inc -> cash flow dec, maybe -> invest for future and firm growing)
   - section 3, cash flow from financing (CFF): overview of cash used from debt and equity, measures cash flow between a company and its owners/creditors
     -  CFF>0 -> more money coming into than out; CFO<0, company is paying off debt/ making devidend payments and/or stock buybacks (a company pays shareholders the market value per share, to re-absorb ownerships of it from investors) 
   - (sometimes) section 4, disclosure of non-cash activities, may be included under the generally accepted accounting principles ([GAAP](https://www.investopedia.com/terms/g/gaap.asp), a combination of authoritative standards set by policy boards and the commonly accepted ways of recording and reporting accounting information)
